@@ -9,10 +9,10 @@
 - [AZ-400: Development for Enterprise DevOps](https://learn.microsoft.com/en-us/training/paths/az-400-work-git-for-enterprise-devops/)
     - [What is DevOps?](https://learn.microsoft.com/en-us/training/modules/introduction-to-devops/2-what-is-devops) - interesting on process
     - Deployment strategies to consider
-        - [Blue-Green](https://www.redhat.com/en/topics/devops/what-is-blue-green-deployment)
-        - [Canary](https://docs.cloud.google.com/deploy/docs/deployment-strategies/canary#:~:text=A%20canary%20deployment%20is%20a,users%20before%20rolling%20out%20fully.)
-            - [Differentiate between Canary release vs blue green deployment](https://www.reddit.com/r/devops/comments/1m777h8/scratching_my_head_trying_to_differentiate/)
-        - [Feature Flag](https://confidence.spotify.com/blog/feature-flags?gad_source=1&gad_campaignid=23888641138&gbraid=0AAAABDu614F2k8KG-9iMw0o6x4EKC1tak&gclid=EAIaIQobChMIgvaWrbWQlQMVGn9BAh26iQzfEAAYAiAAEgKoIfD_BwE)
+        - [Blue-Green](https://www.redhat.com/en/topics/devops/what-is-blue-green-deployment) 💡
+        - [Canary](https://docs.cloud.google.com/deploy/docs/deployment-strategies/canary#:~:text=A%20canary%20deployment%20is%20a,users%20before%20rolling%20out%20fully.) 💡
+            - [Differentiate between Canary release vs blue green deployment](https://www.reddit.com/r/devops/comments/1m777h8/scratching_my_head_trying_to_differentiate/) 💡
+        - [Feature Flag](https://confidence.spotify.com/blog/feature-flags?gad_source=1&gad_campaignid=23888641138&gbraid=0AAAABDu614F2k8KG-9iMw0o6x4EKC1tak&gclid=EAIaIQobChMIgvaWrbWQlQMVGn9BAh26iQzfEAAYAiAAEgKoIfD_BwE) 💡
     - Azure Repos [Product](https://azure.microsoft.com/fr-fr/products/devops/repos) (sub product of azure devops) | [doc](https://learn.microsoft.com/en-us/azure/devops/repos/?view=azure-devops)
     - Azure Devops [Product](https://azure.microsoft.com/en-us/products/devops)
 
@@ -27,17 +27,17 @@
 
 #### Design and implement traceability and flow of work
 
-| Skill | Status | Suggested | Resources |
-|-------|--------|-----------|-----------|
-| Design and implement a structure for the flow of work, including GitHub Flow | ⬜ | [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow) | |
-| Design and implement a strategy for feedback cycles, including notifications and GitHub issues | ⬜ | [GitHub Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) \| [Azure DevOps Notifications](https://learn.microsoft.com/en-us/azure/devops/notifications/about-notifications) | |
+| Skill | Status | AI Suggested (to sort) | Resources |
+|-------|--------|------------------------|-----------|
+| Design and implement a structure for the flow of work, including GitHub Flow | ✅ |  | [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow) ![alt text](image-1.png) |
+| Design and implement a strategy for feedback cycles, including notifications and GitHub issues | ⬜ | [GitHub Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) \| [Azure DevOps Notifications](https://learn.microsoft.com/en-us/azure/devops/notifications/about-notifications) \| [GitHub Issue Templates](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates) \| [Azure DevOps Service Hooks](https://learn.microsoft.com/en-us/azure/devops/service-hooks/overview) \| [GitHub Notifications Settings](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications) \| [Azure Boards Notifications](https://learn.microsoft.com/en-us/azure/devops/boards/backlogs/add-work-items) \| [GitHub Actions Notifications](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/notifications-for-workflow-runs) \| [Feedback Loop Best Practices](https://learn.microsoft.com/en-us/devops/plan/what-is-continuous-delivery) | |
 | Design and implement integration for tracking work, including GitHub projects, Azure Boards, and repositories | ⬜ | [GitHub Projects](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects) \| [Azure Boards Integration](https://learn.microsoft.com/en-us/azure/devops/boards/github/) | [LAB Agile Plan and Portfolio Management with Azure Boards](https://learn.microsoft.com/en-us/training/modules/plan-agile-github-projects-azure-boards/12-agile-plan-portfolio-management-azure-boards) |
 | Design and implement source, bug, and quality traceability | ⬜ | [Traceability in Azure DevOps](https://learn.microsoft.com/en-us/azure/devops/boards/queries/link-work-items-support-traceability) \| [End-to-end traceability](https://learn.microsoft.com/en-us/azure/devops/cross-service/end-to-end-traceability) | |
 
 #### Design and implement appropriate metrics and queries for DevOps
 
-| Skill | Status | Suggested | Resources |
-|-------|--------|-----------|-----------|
+| Skill | Status | AI Suggested (to sort) | Resources |
+|-------|--------|------------------------|-----------|
 | Design and implement a dashboard, including flow of work, such as cycle times, time to recovery, and lead time | ⬜ | [Azure DevOps Dashboards](https://learn.microsoft.com/en-us/azure/devops/report/dashboards/dashboards) \| [Analytics](https://learn.microsoft.com/en-us/azure/devops/report/dashboards/analytics-widgets) | |
 | Design and implement appropriate metrics and queries for project planning | ⬜ | [Project Planning Queries](https://learn.microsoft.com/en-us/azure/devops/boards/queries/query-by-workflow-changes) \| [Velocity](https://learn.microsoft.com/en-us/azure/devops/report/dashboards/team-velocity) | |
 | Design and implement appropriate metrics and queries for development | ⬜ | [Code Quality Metrics](https://learn.microsoft.com/en-us/azure/devops/report/dashboards/analytics-widgets#code-quality-widgets) \| [Git Analytics](https://learn.microsoft.com/en-us/azure/devops/report/dashboards/analytics-widgets#git-widgets) | |
@@ -48,8 +48,8 @@
 
 #### Configure collaboration and communication
 
-| Skill | Status | Suggested | Resources |
-|-------|--------|-----------|-----------|
+| Skill | Status | AI Suggested (to sort) | Resources |
+|-------|--------|------------------------|-----------|
 | Document a project by configuring wikis and process diagrams, including Markdown and Mermaid syntax | ⬜ | [Azure DevOps Wiki](https://learn.microsoft.com/en-us/azure/devops/project/wiki/wiki-create-repo) \| [Mermaid Diagrams](https://learn.microsoft.com/en-us/azure/devops/project/wiki/wiki-markdown-guidance#add-mermaid-diagrams-to-a-wiki-page) | |
 | Configure release documentation, including release notes and API documentation | ⬜ | [Release Notes](https://learn.microsoft.com/en-us/azure/devops/pipelines/release/approvals/gates) \| [GitHub Releases](https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases) | |
 | Automate creation of documentation from Git history | ⬜ | [Git History](https://learn.microsoft.com/en-us/azure/devops/repos/git/review-history) \| [Release Notes Automation](https://learn.microsoft.com/en-us/azure/devops/pipelines/tasks/reference/github-release-v1) | |
@@ -63,16 +63,16 @@
 
 #### Design and implement branching strategies for the source code
 
-| Skill | Status | Suggested | Resources |
-|-------|--------|-----------|-----------|
+| Skill | Status | AI Suggested (to sort) | Resources |
+|-------|--------|------------------------|-----------|
 | Design a branch strategy, including trunk-based, feature branch, and release branch | ⬜ | [Branch Strategy](https://learn.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance) \| [Trunk-based Development](https://learn.microsoft.com/en-us/devops/develop/how-microsoft-develops-devops) | |
 | Design and implement a pull request workflow by using branch policies and branch protection rules | ⬜ | [Branch Policies](https://learn.microsoft.com/en-us/azure/devops/repos/git/branch-policies) \| [GitHub Branch Protection](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches) | |
 | Implement branch merging restrictions by using branch policies and branch protection rules | ⬜ | [Branch Permissions](https://learn.microsoft.com/en-us/azure/devops/repos/git/branch-permissions) \| [Require Pull Request Reviews](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches#require-pull-request-reviews-before-merging) | |
 
 #### Configure and manage repositories
 
-| Skill | Status | Suggested | Resources |
-|-------|--------|-----------|-----------|
+| Skill | Status | AI Suggested (to sort) | Resources |
+|-------|--------|------------------------|-----------|
 | Design and implement a strategy for managing large files, including Git Large File Storage (LFS) and git-fat | ⬜ | [Git LFS](https://learn.microsoft.com/en-us/azure/devops/repos/git/manage-large-files) \| [GitHub LFS](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage) | |
 | Design a strategy for scaling and optimizing a Git repository, including Scalar and cross-repository sharing | ⬜ | [Scalar](https://github.com/microsoft/scalar) \| [Git Performance](https://learn.microsoft.com/en-us/azure/devops/repos/git/git-config#performance-settings) | |
 | Configure permissions in the source control repository | ⬜ | [Repository Permissions](https://learn.microsoft.com/en-us/azure/devops/repos/git/set-git-repository-permissions) \| [GitHub Permissions](https://docs.github.com/en/organizations/managing-user-access-to-your-organizations-repositories/managing-repository-roles/repository-roles-for-an-organization) | |
@@ -86,8 +86,8 @@
 
 #### Design and implement a package management strategy
 
-| Skill | Status | Suggested | Resources |
-|-------|--------|-----------|-----------|
+| Skill | Status | AI Suggested (to sort) | Resources |
+|-------|--------|------------------------|-----------|
 | Recommend package management tools including GitHub Packages and Azure Artifacts | ⬜ | [Azure Artifacts](https://learn.microsoft.com/en-us/azure/devops/artifacts/start-using-azure-artifacts) \| [GitHub Packages](https://docs.github.com/en/packages/learn-github-packages/introduction-to-github-packages) | |
 | Design and implement package feeds and views for local and upstream packages | ⬜ | [Artifact Feeds](https://learn.microsoft.com/en-us/azure/devops/artifacts/concepts/feeds) \| [Upstream Sources](https://learn.microsoft.com/en-us/azure/devops/artifacts/concepts/upstream-sources) | |
 | Design and implement a dependency versioning strategy for code assets and packages, including semantic versioning (SemVer) and date-based (CalVer) | ⬜ | [Package Versioning](https://learn.microsoft.com/en-us/azure/devops/artifacts/concepts/package-versioning) \| [Semantic Versioning](https://semver.org/) | |
@@ -95,8 +95,8 @@
 
 #### Design and implement a testing strategy for pipelines
 
-| Skill | Status | Suggested | Resources |
-|-------|--------|-----------|-----------|
+| Skill | Status | AI Suggested (to sort) | Resources |
+|-------|--------|------------------------|-----------|
 | Design and implement quality and release gates, including security and governance | ⬜ | [Release Gates](https://learn.microsoft.com/en-us/azure/devops/pipelines/release/approvals/gates) \| [Approvals](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/approvals) | |
 | Design a comprehensive testing strategy, including local tests, unit tests, integration tests, and load tests | ⬜ | [Testing Strategy](https://learn.microsoft.com/en-us/azure/devops/pipelines/ecosystems/dotnet-core#run-your-tests) \| [Azure Load Testing](https://learn.microsoft.com/en-us/azure/load-testing/overview-what-is-azure-load-testing) | |
 | Implement tests in a pipeline, including configuring test tasks, configuring test agents, and integration of test results | ⬜ | [Run Tests](https://learn.microsoft.com/en-us/azure/devops/pipelines/test/test-analytics) \| [Test Tasks](https://learn.microsoft.com/en-us/azure/devops/pipelines/tasks/reference/vstest-v2) | |
@@ -104,8 +104,8 @@
 
 #### Design and implement pipelines
 
-| Skill | Status | Suggested | Resources |
-|-------|--------|-----------|-----------|
+| Skill | Status | AI Suggested (to sort) | Resources |
+|-------|--------|------------------------|-----------|
 | Select a deployment automation solution, including GitHub Actions and Azure Pipelines | ⬜ | [Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/get-started/what-is-azure-pipelines) \| [GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions) | |
 | Design and implement a GitHub runner or Azure DevOps agent infrastructure, including cost, tool selection, licenses, connectivity, and maintainability | ⬜ | [Azure Pipeline Agents](https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/agents) \| [Self-hosted Runners](https://docs.github.com/en/actions/hosting-your-own-runners/managing-self-hosted-runners/about-self-hosted-runners) | |
 | Design and implement integration between GitHub repositories and Azure Pipelines | ⬜ | [GitHub + Azure Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/repos/github) \| [Service Connections](https://learn.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoints) | |
@@ -118,8 +118,8 @@
 
 #### Design and implement deployments
 
-| Skill | Status | Suggested | Resources |
-|-------|--------|-----------|-----------|
+| Skill | Status | AI Suggested (to sort) | Resources |
+|-------|--------|------------------------|-----------|
 | Design a deployment strategy, including blue-green, canary, ring, progressive exposure, feature flags, and A/B testing | ⬜ | [Deployment Patterns](https://learn.microsoft.com/en-us/azure/devops/pipelines/release/deployment-patterns) \| [Progressive Exposure](https://learn.microsoft.com/en-us/devops/operate/safe-deployment-practices) | |
 | Design a pipeline to ensure that dependency deployments are reliably ordered | ⬜ | [Stage Dependencies](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/stages#specify-dependencies) \| [Deployment Jobs](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/deployment-jobs) | |
 | Plan for minimizing downtime during deployments by using load balancing, rolling deployments, and deployment slot usage and swap | ⬜ | [Deployment Slots](https://learn.microsoft.com/en-us/azure/app-service/deploy-staging-slots) \| [Rolling Deployments](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/deployment-jobs#rolling-deployment) | |
@@ -131,8 +131,8 @@
 
 #### Design and implement infrastructure as code (IaC)
 
-| Skill | Status | Suggested | Resources |
-|-------|--------|-----------|-----------|
+| Skill | Status | AI Suggested (to sort) | Resources |
+|-------|--------|------------------------|-----------|
 | Recommend a configuration management technology for application infrastructure | ⬜ | [IaC Overview](https://learn.microsoft.com/en-us/devops/deliver/what-is-infrastructure-as-code) \| [Configuration Management](https://learn.microsoft.com/en-us/azure/architecture/framework/devops/automation-infrastructure) | |
 | Implement a configuration management strategy for application infrastructure | ⬜ | [ARM Templates](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/overview) \| [Terraform](https://learn.microsoft.com/en-us/azure/developer/terraform/overview) | |
 | Define an IaC strategy, including source control and automation of testing and deployment | ⬜ | [IaC Best Practices](https://learn.microsoft.com/en-us/azure/architecture/framework/devops/automation-infrastructure) \| [Testing IaC](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/test-toolkit) | |
@@ -141,8 +141,8 @@
 
 #### Maintain pipelines
 
-| Skill | Status | Suggested | Resources |
-|-------|--------|-----------|-----------|
+| Skill | Status | AI Suggested (to sort) | Resources |
+|-------|--------|------------------------|-----------|
 | Monitor pipeline health, including failure rate, duration, and flaky tests | ⬜ | [Pipeline Reports](https://learn.microsoft.com/en-us/azure/devops/pipelines/reports/pipelinereport) \| [Test Analytics](https://learn.microsoft.com/en-us/azure/devops/pipelines/test/test-analytics) | |
 | Optimize a pipeline for cost, time, performance, and reliability | ⬜ | [Pipeline Optimization](https://learn.microsoft.com/en-us/azure/devops/pipelines/build/triggers#batching-ci-runs) \| [Parallel Jobs](https://learn.microsoft.com/en-us/azure/devops/pipelines/licensing/concurrent-jobs) | |
 | Optimize pipeline concurrency for performance and cost | ⬜ | [Concurrency](https://learn.microsoft.com/en-us/azure/devops/pipelines/process/stages#specify-concurrency) \| [Job Limits](https://learn.microsoft.com/en-us/azure/devops/pipelines/licensing/concurrent-jobs) | |
@@ -155,8 +155,8 @@
 
 #### Design and implement authentication and authorization methods
 
-| Skill | Status | Suggested | Resources |
-|-------|--------|-----------|-----------|
+| Skill | Status | AI Suggested (to sort) | Resources |
+|-------|--------|------------------------|-----------|
 | Choose between Microsoft Entra service principals and managed identities for Azure resources (system-assigned and user-assigned) | ⬜ | [Managed Identities](https://learn.microsoft.com/en-us/entra/identity/managed-identities-azure-resources/overview) \| [Service Principals](https://learn.microsoft.com/en-us/entra/identity-platform/app-objects-and-service-principals) | |
 | Implement and manage GitHub authentication, including GitHub Apps, GITHUB_TOKEN, and personal access tokens | ⬜ | [GitHub Apps](https://docs.github.com/en/apps/creating-github-apps/about-creating-github-apps/about-creating-github-apps) \| [GITHUB_TOKEN](https://docs.github.com/en/actions/security-guides/automatic-token-authentication) \| [PATs](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) | |
 | Implement and manage Azure DevOps service connections and personal access tokens | ⬜ | [Service Connections](https://learn.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoints) \| [PATs](https://learn.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate) | |
@@ -167,8 +167,8 @@
 
 #### Design and implement a strategy for managing sensitive information in automation
 
-| Skill | Status | Suggested | Resources |
-|-------|--------|-----------|-----------|
+| Skill | Status | AI Suggested (to sort) | Resources |
+|-------|--------|------------------------|-----------|
 | Implement and manage secrets, keys, and certificates by using Azure Key Vault | ⬜ | [Azure Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/general/overview) \| [Key Vault in Pipelines](https://learn.microsoft.com/en-us/azure/devops/pipelines/release/azure-key-vault) | |
 | Implement and manage secrets and secretless authentication (for example, workload identity federation/OpenID Connect) in GitHub Actions and Azure Pipelines | ⬜ | [GitHub Secrets](https://docs.github.com/en/actions/security-guides/using-secrets-in-github-actions) \| [OIDC](https://docs.github.com/en/actions/deployment/security-hardening-your-deployments/about-security-hardening-with-openid-connect) \| [Workload Identity](https://learn.microsoft.com/en-us/azure/devops/pipelines/release/configure-workload-identity) | |
 | Design and implement a strategy for managing sensitive files during deployment, including Azure Pipelines secure files | ⬜ | [Secure Files](https://learn.microsoft.com/en-us/azure/devops/pipelines/library/secure-files) \| [Variable Groups](https://learn.microsoft.com/en-us/azure/devops/pipelines/library/variable-groups) | |
@@ -176,8 +176,8 @@
 
 #### Automate security and compliance scanning
 
-| Skill | Status | Suggested | Resources |
-|-------|--------|-----------|-----------|
+| Skill | Status | AI Suggested (to sort) | Resources |
+|-------|--------|------------------------|-----------|
 | Design a strategy for security and compliance scanning, including dependency, code, secret, and licensing scanning | ⬜ | [DevOps Security](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-devops-introduction) \| [GitHub Security](https://docs.github.com/en/code-security/getting-started/github-security-features) | |
 | Configure Microsoft Defender for Cloud DevOps Security | ⬜ | [Defender for DevOps](https://learn.microsoft.com/en-us/azure/defender-for-cloud/defender-for-devops-introduction) \| [Connect GitHub](https://learn.microsoft.com/en-us/azure/defender-for-cloud/quickstart-onboard-github) | |
 | Configure GitHub Advanced Security for both GitHub and Azure DevOps | ⬜ | [GitHub Advanced Security](https://docs.github.com/en/get-started/learning-about-github/about-github-advanced-security) \| [GHAS for Azure DevOps](https://learn.microsoft.com/en-us/azure/devops/repos/security/configure-github-advanced-security-features) | |
@@ -191,8 +191,8 @@
 
 #### Configure monitoring for a DevOps environment
 
-| Skill | Status | Suggested | Resources |
-|-------|--------|-----------|-----------|
+| Skill | Status | AI Suggested (to sort) | Resources |
+|-------|--------|------------------------|-----------|
 | Configure Azure Monitor and Azure Monitor Logs to integrate with DevOps tools | ⬜ | [Azure Monitor](https://learn.microsoft.com/en-us/azure/azure-monitor/overview) \| [Log Analytics](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/log-analytics-overview) | |
 | Configure collection of telemetry by using Application Insights, VM Insights, Container Insights, Azure Monitor for Storage, and Azure Monitor for Networks | ⬜ | [Application Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview) \| [VM Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/vm/vminsights-overview) \| [Container Insights](https://learn.microsoft.com/en-us/azure/azure-monitor/containers/container-insights-overview) | |
 | Configure monitoring in GitHub, including enabling insights and creating and configuring charts | ⬜ | [GitHub Insights](https://docs.github.com/en/organizations/collaborating-with-groups-in-organizations/viewing-insights-for-your-organization) \| [Repository Insights](https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-traffic-to-a-repository) | |
@@ -200,8 +200,8 @@
 
 #### Analyze metrics from instrumentation
 
-| Skill | Status | Suggested | Resources |
-|-------|--------|-----------|-----------|
+| Skill | Status | AI Suggested (to sort) | Resources |
+|-------|--------|------------------------|-----------|
 | Inspect infrastructure performance indicators, including CPU, memory, disk, and network | ⬜ | [Performance Monitoring](https://learn.microsoft.com/en-us/azure/azure-monitor/vm/vminsights-performance) \| [Metrics Explorer](https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/metrics-getting-started) | |
 | Analyze metrics by using collected telemetry, including usage and application performance | ⬜ | [Application Insights Analytics](https://learn.microsoft.com/en-us/azure/azure-monitor/app/analytics) \| [Usage Analysis](https://learn.microsoft.com/en-us/azure/azure-monitor/app/usage-overview) | |
 | Inspect distributed tracing by using Application Insights | ⬜ | [Distributed Tracing](https://learn.microsoft.com/en-us/azure/azure-monitor/app/distributed-tracing) \| [Application Map](https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-map) | |
